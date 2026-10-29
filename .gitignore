@@ -1,5 +1,6 @@
 target/
-data/
+data/*.csv
+data/*.xpt
 .idea/
 *.iml
 libs/
