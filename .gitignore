@@ -1,6 +1,7 @@
 target/
-data/*.csv
-data/*.xpt
 .idea/
 *.iml
 libs/
+# raw / converted data files are not committed (too large), but its README is
+data/*
+!data/README.md
