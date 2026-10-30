@@ -1,0 +1,38 @@
+"C:\Program Files\Java\jdk-23\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\lib\idea_rt.jar=54224:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\Jalbotech.com\IdeaProjects\stat-project-nhanes1\target\classes;C:\Users\Jalbotech.com\.m2\repository\org\apache\commons\commons-csv\1.10.0\commons-csv-1.10.0.jar;C:\Users\Jalbotech.com\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Jalbotech.com\.m2\repository\org\knowm\xchart\xchart\3.8.6\xchart-3.8.6.jar;C:\Users\Jalbotech.com\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Jalbotech.com\.m2\repository\de\rototor\pdfbox\graphics2d\3.0.0\graphics2d-3.0.0.jar;C:\Users\Jalbotech.com\.m2\repository\org\apache\pdfbox\pdfbox\3.0.0\pdfbox-3.0.0.jar;C:\Users\Jalbotech.com\.m2\repository\org\apache\pdfbox\pdfbox-io\3.0.0\pdfbox-io-3.0.0.jar;C:\Users\Jalbotech.com\.m2\repository\org\apache\pdfbox\fontbox\3.0.0\fontbox-3.0.0.jar;C:\Users\Jalbotech.com\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Jalbotech.com\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Jalbotech.com\IdeaProjects\stat-project-nhanes1\libs\commons-csv-1.10.0.jar;C:\Users\Jalbotech.com\IdeaProjects\stat-project-nhanes1\libs\commons-math3-3.6.1.jar org.example.Analysis
+=== خلاصه جمعیت تحلیلی ===
+تعداد کل بعد از ادغام: 7801
+بعد از فیلتر سن (>=20): 6064
+بعد از حذف گمشده‌ها: 5805
+
+=== آمار توصیفی BMI (kg/m2) ===
+میانگین: 29.73
+میانه: 28.40
+انحراف معیار: 7.15
+Q1: 24.70
+Q3: 33.50
+
+=== آمار توصیفی SBP (mmHg) ===
+میانگین: 123.02
+میانه: 121.00
+انحراف معیار: 18.47
+Q1: 110.00
+Q3: 133.00
+
+=== مقایسه سن خام و وزن‌دار ===
+میانگین سن خام: 53.85
+میانگین سن وزن‌دار: 48.88
+
+=== مقایسه خام و وزن‌دار ===
+میانگین خام BMI: 29.73  |  وزن‌دار BMI: 29.60
+میانگین خام SBP: 123.02  |  وزن‌دار SBP: 121.22
+
+=== جدول فراوانی جنس ===
+مرد: 2619 نفر (45.12%)
+زن: 3186 نفر (54.88%)
+
+=== جدول فراوانی و آمار توصیفی BMI بر حسب گروه سنی ===
+40-59 سال: تعداد = 1668 | میانگین BMI = 30.48 | انحراف معیار = 7.59
+20-39 سال: تعداد = 1482 | میانگین BMI = 29.34 | انحراف معیار = 7.81
+60+ سال: تعداد = 2655 | میانگین BMI = 29.48 | انحراف معیار = 6.40
+
+Process finished with exit code 0
